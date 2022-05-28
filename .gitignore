@@ -4,3 +4,5 @@ node/
 config.env
 config.env/
 /vars
+.env
+.env/
