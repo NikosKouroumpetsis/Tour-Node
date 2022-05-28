@@ -1,5 +1,5 @@
 const express = require('express');
-const userController = require('./../controllers/userController');
+const userController = require('../controllers/userController');
 
 // 2os Tropos Eisagwgis twn function
 
