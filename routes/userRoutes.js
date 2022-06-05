@@ -1,5 +1,6 @@
 const express = require('express');
 const userController = require('../controllers/userController');
+const authController = require('../controllers/authController');
 
 // 2os Tropos Eisagwgis twn function
 
@@ -10,6 +11,8 @@ const userController = require('../controllers/userController');
 // router.route('/:id').get(getUser).patch(updateUser).delete(deleteUser);
 
 const router = express.Router();
+
+router.post('/signup', authController.signup);
 
 router
   .route('/')
